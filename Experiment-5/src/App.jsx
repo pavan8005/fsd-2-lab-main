@@ -1,6 +1,6 @@
 import React, { lazy, Suspense, useState } from 'react';
 
-const User = lazy(() => import('./User'));
+ const User = lazy(() => import('./User'));
 
 function App() {
   const [load, setLoad] = useState(false);
